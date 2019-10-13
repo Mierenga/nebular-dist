@@ -44,7 +44,7 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 import { ActivatedRoute } from '@angular/router';
 import { of as observableOf } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
-import { NB_WINDOW } from '@nebular/theme';
+import { NB_WINDOW } from 'nebular-dist/theme';
 import { NbAuthStrategy } from '../auth-strategy';
 import { NbAuthIllegalTokenError } from '../../services/token/token';
 import { NbAuthResult } from '../../services/auth-result';

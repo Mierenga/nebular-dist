@@ -1,4 +1,4 @@
-import { NbNativeDateService } from '@nebular/theme';
+import { NbNativeDateService } from 'nebular-dist/theme';
 export interface NbDateFnsOptions {
     format: string;
     parseOptions: {};

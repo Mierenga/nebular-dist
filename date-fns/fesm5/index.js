@@ -1,5 +1,5 @@
 import { Inject, Injectable, LOCALE_ID, NgModule, Optional } from '@angular/core';
-import { NB_DATE_SERVICE_OPTIONS, NbDateService, NbNativeDateService } from '@nebular/theme';
+import { NB_DATE_SERVICE_OPTIONS, NbDateService, NbNativeDateService } from 'nebular-dist/theme';
 import * as rollupParse from 'date-fns/parse';
 import rollupParse__default from 'date-fns/parse';
 import * as rollupFormat from 'date-fns/format';

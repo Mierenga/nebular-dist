@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var NbDateFnsDateModule_1;
 import { NgModule } from '@angular/core';
-import { NB_DATE_SERVICE_OPTIONS, NbDateService } from '@nebular/theme';
+import { NB_DATE_SERVICE_OPTIONS, NbDateService } from 'nebular-dist/theme';
 import { NbDateFnsDateService } from './services/date-fns-date.service';
 const dateFnsServiceProvider = { provide: NbDateService, useClass: NbDateFnsDateService };
 let NbDateFnsDateModule = NbDateFnsDateModule_1 = class NbDateFnsDateModule {

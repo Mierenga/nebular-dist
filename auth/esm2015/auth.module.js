@@ -9,7 +9,7 @@ import { Injector, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { NbAlertModule, NbButtonModule, NbCardModule, NbCheckboxModule, NbIconModule, NbInputModule, NbLayoutModule, } from '@nebular/theme';
+import { NbAlertModule, NbButtonModule, NbCardModule, NbCheckboxModule, NbIconModule, NbInputModule, NbLayoutModule, } from 'nebular-dist/theme';
 import { NbAuthService } from './services/auth.service';
 import { NbAuthSimpleToken } from './services/token/token';
 import { NbTokenLocalStorage, NbTokenStorage } from './services/token/token-storage';

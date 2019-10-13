@@ -10,7 +10,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { NgModule } from '@angular/core';
-import { NB_DATE_SERVICE_OPTIONS, NbDateService } from '@nebular/theme';
+import { NB_DATE_SERVICE_OPTIONS, NbDateService } from 'nebular-dist/theme';
 import { NbDateFnsDateService } from './services/date-fns-date.service';
 var dateFnsServiceProvider = { provide: NbDateService, useClass: NbDateFnsDateService };
 var NbDateFnsDateModule = /** @class */ (function () {

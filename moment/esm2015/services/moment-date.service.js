@@ -17,7 +17,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 import { Inject, Injectable, LOCALE_ID } from '@angular/core';
 import { TranslationWidth } from '@angular/common';
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from 'nebular-dist/theme';
 import * as _moment from 'moment';
 // @ts-ignore
 import { default as _rollupMoment } from 'moment';

@@ -1,6 +1,6 @@
 import { Inject, Injectable, LOCALE_ID, NgModule } from '@angular/core';
 import { TranslationWidth } from '@angular/common';
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from 'nebular-dist/theme';
 import * as _rollupMoment from 'moment';
 import _rollupMoment__default from 'moment';
 

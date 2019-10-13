@@ -1,5 +1,5 @@
 import { TranslationWidth } from '@angular/common';
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from 'nebular-dist/theme';
 import { Moment } from 'moment';
 export declare class NbMomentDateService extends NbDateService<Moment> {
     protected localeData: {

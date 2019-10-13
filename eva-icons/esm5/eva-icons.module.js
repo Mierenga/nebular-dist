@@ -37,7 +37,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { NgModule } from '@angular/core';
-import { NbIconLibraries, NbSvgIcon } from '@nebular/theme';
+import { NbIconLibraries, NbSvgIcon } from 'nebular-dist/theme';
 import { icons } from 'eva-icons';
 var NbEvaSvgIcon = /** @class */ (function (_super) {
     __extends(NbEvaSvgIcon, _super);

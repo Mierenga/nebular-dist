@@ -29,7 +29,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 import { Inject, Injectable, LOCALE_ID, Optional } from '@angular/core';
-import { NB_DATE_SERVICE_OPTIONS, NbNativeDateService } from '@nebular/theme';
+import { NB_DATE_SERVICE_OPTIONS, NbNativeDateService } from 'nebular-dist/theme';
 import * as dateFnsParse from 'date-fns/parse';
 // @ts-ignore
 import { default as rollupParse } from 'date-fns/parse';

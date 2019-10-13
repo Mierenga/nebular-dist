@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NbIconLibraries, NbSvgIcon } from '@nebular/theme';
+import { NbIconLibraries, NbSvgIcon } from 'nebular-dist/theme';
 import { icons } from 'eva-icons';
 
 /*

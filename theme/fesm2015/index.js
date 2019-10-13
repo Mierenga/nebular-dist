@@ -2289,15 +2289,15 @@ var __metadata$15 = (this && this.__metadata) || function (k, v) {
  * ### Installation
  *
  * By default Nebular comes without any pre-installed icon pack.
- * Starting with Nebular 4.0.0 we ship separate package called `@nebular/eva-icons`
+ * Starting with Nebular 4.0.0 we ship separate package called `nebular-dist/eva-icons`
  * which integrates SVG [Eva Icons](https://akveo.github.io/eva-icons/) pack to Nebular. To add it to your
  * project run:
  * ```sh
- * npm i @nebular/eva-icons
+ * npm i nebular-dist/eva-icons
  * ```
  * This command will install Eva Icons pack. Then register `NbEvaIconsModule` into your app module:
  * ```ts
- * import { NbEvaIconsModule } from '@nebular/eva-icons';
+ * import { NbEvaIconsModule } from 'nebular-dist/eva-icons';
  *
  * @NgModule({
  *   imports: [
@@ -2309,7 +2309,7 @@ var __metadata$15 = (this && this.__metadata) || function (k, v) {
  * ```
  * Last thing, import `NbIconModule` to your feature module where you need to show an icon:
  * ```ts
- * import { NbIconModule } from '@nebular/theme';
+ * import { NbIconModule } from 'nebular-dist/theme';
  *
  * @NgModule({
  *   imports: [
@@ -20539,13 +20539,13 @@ const NB_DATE_SERVICE_OPTIONS = new InjectionToken('Date service options');
  * And native `Date.parse(...)` for dates parsing. But native `Date.parse` function doesn't support formats.
  * To provide custom formatting you have to use one of the following packages:
  *
- * - `@nebular/moment` - provides moment date adapter that uses moment for date objects. This means datepicker than
- * will operate only moment date objects. If you want to use it you have to install it: `npm i @nebular/moment`, and
+ * - `nebular-dist/moment` - provides moment date adapter that uses moment for date objects. This means datepicker than
+ * will operate only moment date objects. If you want to use it you have to install it: `npm i nebular-dist/moment`, and
  * import `NbMomentDateModule` from this package.
  *
- * - `@nebular/date-fns` - adapter for popular date-fns library. This way is preferred if you need only date formatting.
+ * - `nebular-dist/date-fns` - adapter for popular date-fns library. This way is preferred if you need only date formatting.
  * Because date-fns is treeshakable, tiny and operates native date objects. If you want to use it you have to
- * install it: `npm i @nebular/date-fns`, and import `NbDateFnsDateModule` from this package.
+ * install it: `npm i nebular-dist/date-fns`, and import `NbDateFnsDateModule` from this package.
  *
  * ### NbDateFnsDateModule
  *
@@ -21075,8 +21075,8 @@ let NbBasePicker = class NbBasePicker extends NbDatepicker {
     }
     checkFormat() {
         if (this.dateService.getId() === 'native' && this.format) {
-            throw new Error('Can\'t format native date. To use custom formatting you have to install @nebular/moment or ' +
-                '@nebular/date-fns package and import NbMomentDateModule or NbDateFnsDateModule accordingly.' +
+            throw new Error('Can\'t format native date. To use custom formatting you have to install nebular-dist/moment or ' +
+                'nebular-dist/date-fns package and import NbMomentDateModule or NbDateFnsDateModule accordingly.' +
                 'More information at "Formatting issue" ' +
                 'https://akveo.github.io/nebular/docs/components/datepicker/overview#nbdatepickercomponent');
         }

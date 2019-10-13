@@ -10,7 +10,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { NgModule } from '@angular/core';
-import { NbDateService } from '@nebular/theme';
+import { NbDateService } from 'nebular-dist/theme';
 import { NbMomentDateService } from './services/moment-date.service';
 var NbMomentDateModule = /** @class */ (function () {
     function NbMomentDateModule() {

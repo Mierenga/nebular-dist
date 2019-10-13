@@ -1,4 +1,4 @@
-import { NbIconLibraries, NbSvgIcon } from '@nebular/theme';
+import { NbIconLibraries, NbSvgIcon } from 'nebular-dist/theme';
 interface NbOriginalEvaIcon {
     toSvg(options: NbEvaIconOptions): any;
 }
